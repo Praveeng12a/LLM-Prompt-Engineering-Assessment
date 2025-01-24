@@ -1,0 +1,22 @@
+Setup Environment:
+
+# Create a virtual env:
+    conda create --name totem python=3.10
+    pip install -r requirements.txt
+
+# Ensure .env with you api key
+    GOOGLE_API_KEY= Your_Key
+
+# Test all the code is working on not
+
+cd Totem_Interactive/
+export PYTHONPATH=$(pwd)
+cmd: python3 prompt_llm.py
+
+# Test with the streamlit UI for the User Experience
+
+cmd: streamlit run streamlit_app.py
+
+# Now Test the API (FastAPI)
+
+cmd: uvicorn main:app --reload
