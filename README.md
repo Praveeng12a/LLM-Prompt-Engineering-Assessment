@@ -60,7 +60,7 @@ Launch the application with the `streamlit_app.py` script to start the Streamlit
 streamlit run streamlit_app.py
 ```
 
-### API Testing (Test the API (FastAPI):)
+### API Testing (Test the API (FastAPI)):
 
 Test the API with the `main.py` script and ensure every endpoint's response:
 ```bash
@@ -70,7 +70,7 @@ uvicorn main:app --reload
 ## Output
 
 Below is an example of the application interface showing the optimized prompts output:
-![Optimized prompts Output](Totem_Interactive/Documents/output1.png)
+![Optimized prompts Output](./Totem_Interactive/Documents/output1.png)
 
 ## Contributing
 
