@@ -21,7 +21,7 @@ This project is designed to improve the quality of prompts for large language mo
 - Improving clarity
 - Providing precise instructions
 
-Ultimately, this results in optimized prompts that yield precise and high-quality outputs from the LLMs.
+#### Ultimately, this results in optimized prompts that yield precise and high-quality outputs from the LLMs.
 ---
 
 ### Ensure .env with Your API Key:
