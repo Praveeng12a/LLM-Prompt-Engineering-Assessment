@@ -70,7 +70,7 @@ uvicorn main:app --reload
 ## Output
 
 Below is an example of the application interface showing the optimized prompts output:
-![Optimized prompts Output](./Documents/output1.png)
+![Optimized prompts Output](.Totem_Interactive/Documents/output1.png)
 
 ## Contributing
 
