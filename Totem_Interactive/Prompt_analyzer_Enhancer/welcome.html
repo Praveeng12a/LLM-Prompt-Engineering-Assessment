@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt Processing API</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6; 
+        }
+        .links {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .links a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prompt Processing API</h1>
+    <p>Welcome to the Prompt Processing API! This API helps you analyze, enhance, and select the best Large Language Model (LLM) for your prompts.</p>
+    
+    <div class="links">
+        <a href="/swagger">Swagger UI (Interactive Documentation)</a>
+        <a href="/documentation">ReDoc Documentation</a>
+    </div>
+    
+    <h2>API Endpoints</h2>
+    <ul>
+        <li><strong>POST /process-prompt</strong>: Submit a prompt for analysis, LLM selection, and enhancement</li>
+        <li><strong>GET /health</strong>: Check API health status</li>
+    </ul>
+</body>
+</html>

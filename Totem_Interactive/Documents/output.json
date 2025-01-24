@@ -1,0 +1,27 @@
+{
+    "analysis": {
+        "task_type": "code",
+        "complexity": "Low",
+        "missing_elements": [
+            "Specific sorting algorithm (e.g., bubble sort, merge sort, quicksort)",
+            "Input data type (e.g., list of integers, list of strings)",
+            "Desired output format (e.g., sorted list, in-place sorting)",
+            "Constraints on space or time complexity"
+        ],
+        "context_score": 0.2,
+        "clarity_score": 0.5
+    },
+    "recommended_llm": {
+        "model": "claude-haiku",
+        "reasoning": "Simple coding task or basic implementation."
+    },
+    "enhanced_prompt": {
+        "text": "Implement the bubble sort algorithm in Python to sort a list of integers. The function should take a list of integers as input and return a new list containing the sorted integers in ascending order. Do not modify the original list.",
+        "technique": "Specification Expansion",
+        "improvement_metrics": {
+            "clarity": 0.9,
+            "context": 0.7,
+            "specificity": 0.6
+        }
+    }
+}
